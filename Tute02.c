@@ -16,28 +16,29 @@ Amount = 20 x 50 = 1000
 Distance -> 50
 Amount = 30 x 50 + (50-30) x 40 = 2300*/
 
-#include <stdio.h>
+#include <stdio.h>//standard input output header
 
 int main() {
-  	floot distance,amont =0;
+  	floot distance,amont =0;//input values
 	
-	printf("enter the distance van travelled :");
-	scanf("%f",&distance);
+	printf("enter the distance van travelled :");//display enter the distance
+	scanf("%f",&distance);//input the distance to kryboard
 	
-	if(distance > 30)
+	if(distance > 30)//check the distance
+		
 	{
-		amount = 30*50+ (distance - 30)* 40;
+		amount = 30*50+ (distance - 30)* 40;//calculate the amount
 		
 	}
 	else
 	{
-		amoumt = distance * 50;
+		amoumt = distance * 50;//calculate the amount
 		
 	}
 	 
-	 printf("account is paid id %.2f",amount);
+	 printf("account is paid id %.2f",amount);//display amount
 	  
 	  
   
   return 0;
-}
+}//end
