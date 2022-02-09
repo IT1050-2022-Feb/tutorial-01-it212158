@@ -15,5 +15,35 @@ int main() {
    printf("%d ", minimum(no1, no2));
    printf("%d ", maximum(no1, no2));
    printf("%d ", multiply(no1, no2));
+   int minimum(n1,n2)
+{
+	if(n1 < n2)
+	{
+		return n1;
+	}
+	else
+	return n2;
+	
+} 
+int maximum(n1,n2)
+{
+
+if(n1 > n2)
+	{
+		return n1;
+	}
+	else
+	return n2;
+}
+int multiply(n1,n2)	
+{
+	int mul = 0;
+	mul = n1*n2;
+	return mul;
+	
+}
+	
+  
+
    return 0;
 }
